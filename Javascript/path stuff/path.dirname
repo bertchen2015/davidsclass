@@ -1,0 +1,9 @@
+const path = require('path');
+
+// Shortened for readability
+let filepath = 'C:/Users/.../Pictures/Photos/India2019/DSC_0002.jpg';
+
+let directoryOfFile = path.dirname(filepath);
+
+console.log('The parent directory of the file is', directoryOfFile);
+// The parent directory of the file is C:/Users/moose/Pictures/Photos/India2019

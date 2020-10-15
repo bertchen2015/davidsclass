@@ -1,0 +1,9 @@
+const path = require('path');
+
+// Shortened for readability
+let filepath = 'C:/Users/.../intro-to-the-path-module/images/useravatars/bob_smith.png';
+
+let imageName = path.basename(filepath, '.png');
+
+console.log('name of image:', imageName);
+// name of image: bob_smith

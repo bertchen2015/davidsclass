@@ -1,0 +1,4 @@
+const path = require('path');
+
+path.normalize('/hello/world/lets/go/deeper/./wait/this/is/too/deep/lets/go/back/some/../../../../../../../../..');
+// returns: /hello/world/lets/go/deeper

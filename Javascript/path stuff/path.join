@@ -1,0 +1,11 @@
+const path = require('path');
+
+let imageName = 'bob_smith';
+
+let filepath = path.join(__dirname, '/images/useravatars/', imageName, '.png');
+// We'll talk about what __dirname does a little later on.
+
+console.log('the file path of the image is', filepath);
+// the filepath of the image is
+// C:/Users/.../intro-to-the-path-module/images/useravatars/bob_smith.png
+// (actual output shortened for readability)
